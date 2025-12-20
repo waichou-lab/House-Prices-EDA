@@ -23,7 +23,7 @@ print("=" * 60)
 
 # 从data文件夹加载数据
 try:
-    df = pd.read_csv('/../data/train.csv')
+    df = pd.read_csv('./data/train.csv')
     print("✓ 从 data/train.csv 加载数据")
 except FileNotFoundError:
     try:
@@ -268,4 +268,5 @@ print(f"  处理完成率: {(df.isnull().sum().sum() - df_filled.isnull().sum().
 
 print("\n" + "=" * 60)
 print("所有任务已完成！可以开始录制口頭報告。")
+
 print("=" * 60)
