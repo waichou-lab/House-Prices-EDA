@@ -23,7 +23,7 @@ print("=" * 60)
 
 # 从data文件夹加载数据
 try:
-    df = pd.read_csv('./data/train.csv')
+    df = pd.read_csv('data/train.csv')
     print("✓ 从 data/train.csv 加载数据")
 except FileNotFoundError:
     try:
@@ -270,3 +270,4 @@ print("\n" + "=" * 60)
 print("所有任务已完成！可以开始录制口頭報告。")
 
 print("=" * 60)
+
